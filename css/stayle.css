@@ -1,0 +1,131 @@
+body{
+    color: aliceblue;
+}
+/* <!-- start landing page --> */
+.landing-page{
+
+    min-height: 100vh;
+    background-image: url(../image/flat-lay-mexican-food-composition-with-copyspace.jpg);
+    background-size: cover;
+    position: relative;
+}
+.landing-page .overlay{
+    background-color: #572303cf;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.header-area{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 2;
+background-color: #ffffff66;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 297px;
+    /* border: 1px solid; */
+    z-index: 2;
+    padding: 0;
+    font-size: larger;
+}
+ul li a{
+    text-decoration: none;
+    color: #fafafa;
+}
+ul li:hover a{
+    color: #f7920c;
+    cursor: context-menu;
+    transition: 0.3s;
+    font-size: 20px;
+
+}
+.search{
+    width: 100px;
+    z-index: 2;
+    border:1px solid #fafafa;
+    border-radius: 43px;
+    padding-left: 10px;
+    background-color: #ffffffbd;
+}
+
+.search:hover{
+    width: 146px;
+    border-radius: 43px; 
+    z-index: 2;
+}
+.logo{
+    font-family: cursive;
+    color: #f7920c;
+    font-weight: bold;
+    font-size: x-large;
+    z-index: 2;
+}
+.itrodaction-text{
+    
+    z-index: 2  ;
+    position: relative;
+
+}
+.itrodaction-text .textOne {
+    font-family: "Sevillana", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: -webkit-xxx-large;
+    margin-bottom: 0;    
+}
+.itrodaction-text #first{
+    margin-top: auto;
+    margin-bottom:10px;
+    width: fit-content;
+    font-family: math;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 78px;
+    color: antiquewhite;
+    background-color: #f7910cd5;
+}
+.itrodaction-text #secand{
+    margin-top: auto;
+    margin-bottom: 0;
+    font-family: math;
+    font-weight: 400;
+    font-style: normal;
+     font-size: 85px;
+     width: fit-content;
+     color: #f7920c;
+     background-color: rgba(250, 235, 215, 0.889);
+
+}
+.itrodaction-text p{
+    color: #ffffff7d;
+    width: 263px;
+}
+.containerone{
+   
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.food-imege{
+    width: 260px;
+    border-radius: 50%;
+    height: 243px;
+    border: 3px solid rgb(248, 246, 246);
+    z-index: 2;
+    background-size: cover;
+    margin-top: 52px;
+
+}
+/* <!-- end landing page --> */

@@ -1,6 +1,48 @@
 body{
     color: aliceblue;
 }
+
+
+
+/* <!-- start seting part --> */
+.setting-box{
+    color: #ffffff;
+    top:0;
+    left:-200px;
+    font-size: larger;
+    position: fixed;
+    z-index: 4;
+    width: 200px;
+    background-color: #fafafa88;
+    min-height: 100vh;
+    transition: 3s;
+}
+.opened{
+    left: 0;
+}
+
+.setting-box .toggele-settings {
+    font-size: 30px;
+
+    position: absolute;
+    left:100%;
+    top: 100px;
+    background-color: #f7920c;
+    width:35px;
+    text-align: center;
+    cursor: pointer;
+    /* height: 35px; */
+    border-radius:  0px 10px 10px 0px ;
+    
+}
+.setting-box .toggele-settings .fa-solid{
+    background-color: #fafafa00;
+}
+
+
+/* <!-- end seting part --> */
+
+
 /* <!-- start landing page --> */
 .landing-page{
 
@@ -22,6 +64,7 @@ body{
     align-items: center;
     z-index: 2;
 background-color: #ffffff66;
+
 }
 ul{
     list-style: none;
@@ -32,6 +75,7 @@ ul{
     z-index: 2;
     padding: 0;
     font-size: larger;
+    
 }
 ul li a{
     text-decoration: none;
@@ -41,7 +85,6 @@ ul li:hover a{
     color: #f7920c;
     cursor: context-menu;
     transition: 0.3s;
-    font-size: 20px;
 
 }
 .search{
@@ -54,7 +97,7 @@ ul li:hover a{
 }
 
 .search:hover{
-    width: 146px;
+    transform: scale(1.2);
     border-radius: 43px; 
     z-index: 2;
 }
@@ -129,3 +172,6 @@ ul li:hover a{
 
 }
 /* <!-- end landing page --> */
+
+
+

@@ -1,8 +1,9 @@
 // <!-- start seting part -->
-let setingDiv=document.querySelector(".toggele-settings");
+let setingDiv=document.querySelector(".fa-solid");
 let divAddOpen=document.querySelector(".setting-box")
 setingDiv.onclick=function () {
-    divAddOpen.classList.add("opened")
+    this.classList.toggle("fa-spin")
+    divAddOpen.classList.toggle("opened")
 
 }
 
@@ -23,4 +24,8 @@ setInterval(()=>{
 
 // <!-- end landing page -->
 
+// <!-- start About Us Section -->
 
+
+
+// <!-- end About Us Section -->

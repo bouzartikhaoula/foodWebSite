@@ -24,8 +24,3 @@ setInterval(()=>{
 
 // <!-- end landing page -->
 
-// <!-- start About Us Section -->
-
-
-
-// <!-- end About Us Section -->

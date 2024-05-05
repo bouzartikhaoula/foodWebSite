@@ -229,7 +229,6 @@ ul li:hover a{
     font-weight: 400;
     font-style: normal;
     font-size: 56px;
-    /* border: 1px solid red; */
     text-align: center;
 }
     
@@ -275,17 +274,70 @@ iframe{
 /* start footer section */
 .containerFooter{
     width: 100%;
-    position: absolute;
     z-index: 7777777;
-    height: 80vh;
+    display: flex;
+    height:46vh;
+    align-items: flex-end;
+    background-color: #fafafa;
 }
 .backgr{
-    width: 135%;
-    top: 68%;
-    height: 83%;
-    position: fixed;
+    width: 100%;
+    top: 86%;
+    height: 74%;
+    position: revert-layer;
     right: -111px;
-    border-radius: 20% 41%;
+    border-radius: 48% 28% 0 0;
     background-color: #F57C00;
-    rotate: 186deg;
+  
+}
+.backgr p{
+    margin-top: 20px;
+        width: 40%;
+        
+        FONT-SIZE: 25px;
+        margin: 15px 30%;
+text-align: center;
+    }
+.part-contect-icon{
+        margin-top: 20px;
+        width: 40%;
+        margin: 10px 30%;
+        display: flex;
+        FONT-SIZE: 25px;
+        justify-content: space-evenly;
+        align-items: center;
+}
+.part-contect{
+    margin-top: 20px;
+    width: 40%;
+    FONT-SIZE: 18px;
+    margin: 15px 30%;
+text-align: center;
+}
+.part-contect label{
+    
+    color: bisque;
+    display: block;
+    margin-top: 2px;
+    margin-left: -12px;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+}
+.part-contect button{
+    color: #F57C00;
+    border: 0;
+    background-color:white;
+    border-radius: 3px;
+
+}
+.part-contect input{
+    border: 0;
+    border-radius: 4px;
+}
+.part-contect-icon i:hover{
+color: #f4e1c9;
+}
+.part-contect button:hover{
+    color: #b96b0b;
+
 }
